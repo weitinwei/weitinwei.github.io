@@ -24,9 +24,9 @@
 	$smtpserver = "smtp.163.com";//SMTP服务器
 	$smtpserverport =25;//SMTP服务器端口
 	$smtpusermail = "15778045813@163.com";//SMTP服务器的用户邮箱
-	$smtpemailto = $_POST['15778045813@163.com'];//发送给谁
+	$smtpemailto = $_POST['123'];//发送给谁
 	$smtpuser = "15778045813@163.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
-	$smtppass = "232123456789";//SMTP服务器的用户密码
+	$smtppass = "qq232123456789";//SMTP服务器的用户密码
 	$mailtitle = $_POST['title'];//邮件主题
 	$mailcontent = "<h1>".$_POST['content']."</h1>";//邮件内容
 	$mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
